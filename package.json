@@ -10,5 +10,8 @@
     "*.{js,jsx,json,css}": [
       "prettier --no-semi --trailing-comma all --jsx-bracket-same-line true --write"
     ]
+  },
+  "devDependencies": {
+    "semantic-release": "^19.0.2"
   }
 }
