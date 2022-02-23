@@ -1,0 +1,9 @@
+{
+  "name": "yarn-workspace-plugin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:dictybase-playground/yarn-workspace-plugin.git",
+  "author": "Ayaan Siddiqui <ayaanqui.com@gmail.com>",
+  "license": "BSD-2-Clause",
+  "private": false
+}
