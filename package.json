@@ -5,5 +5,10 @@
   "repository": "git@github.com:dictybase-playground/yarn-workspace-plugin.git",
   "author": "Ayaan Siddiqui <ayaanqui.com@gmail.com>",
   "license": "BSD-2-Clause",
-  "private": false
+  "private": false,
+  "lint-staged": {
+    "*.{js,jsx,json,css}": [
+      "prettier --no-semi --trailing-comma all --jsx-bracket-same-line true --write"
+    ]
+  }
 }
