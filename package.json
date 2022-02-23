@@ -7,8 +7,9 @@
   "license": "BSD-2-Clause",
   "private": false,
   "lint-staged": {
-    "*.{js,jsx,json,css}": [
-      "prettier --no-semi --trailing-comma all --jsx-bracket-same-line true --write"
+    "*.{js,json,md}": [
+      "prettier --no-semi --trailing-comma all --jsx-bracket-same-line true --write",
+      "git add"
     ]
   },
   "devDependencies": {
